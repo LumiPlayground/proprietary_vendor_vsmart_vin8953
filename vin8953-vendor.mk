@@ -398,6 +398,7 @@ PRODUCT_COPY_FILES += \
     vendor/vsmart/vin8953/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/vsmart/vin8953/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
     vendor/vsmart/vin8953/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/vsmart/vin8953/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/vsmart/vin8953/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/vsmart/vin8953/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/vsmart/vin8953/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
@@ -554,6 +555,7 @@ PRODUCT_COPY_FILES += \
     vendor/vsmart/vin8953/proprietary/vendor/etc/ftm_test_config_mtp:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_mtp \
     vendor/vsmart/vin8953/proprietary/vendor/etc/ftm_test_config_wcd9335:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_wcd9335 \
     vendor/vsmart/vin8953/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
+    vendor/vsmart/vin8953/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/vsmart/vin8953/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/vsmart/vin8953/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/vsmart/vin8953/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -634,14 +636,14 @@ PRODUCT_COPY_FILES += \
     vendor/vsmart/vin8953/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/vsmart/vin8953/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/vsmart/vin8953/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b00 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b01 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b02 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b03 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b04 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b05 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b06 \
-    vendor/vsmart/vin8953/proprietary/vendor/firmware/fingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.mdt \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b00 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b01 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b02 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b03 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b04 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b05 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.b06 \
+    vendor/vsmart/vin8953/proprietary/vendor/firmware/fngap64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fngap64.mdt \
     vendor/vsmart/vin8953/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
     vendor/vsmart/vin8953/proprietary/vendor/firmware/tas2557evm_aacspk_a.ftcfg:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557evm_aacspk_a.ftcfg \
     vendor/vsmart/vin8953/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
@@ -1335,7 +1337,7 @@ PRODUCT_COPY_FILES += \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.dsi.ant@1.0-impl.so \
-    vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/fingerprint.FP3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.FP3.so \
+    vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fpsensor_fingerprint.default.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8953.so \
@@ -1443,6 +1445,7 @@ PRODUCT_COPY_FILES += \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvadsp_stub.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastrpc_utf_stub.so \
+    vendor/vsmart/vin8953/proprietary/vendor/lib64/libfp_ext_svc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_ext_svc2.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
@@ -1600,6 +1603,7 @@ PRODUCT_COPY_FILES += \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/vsmart/vin8953/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
