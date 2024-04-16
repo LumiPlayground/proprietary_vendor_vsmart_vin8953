@@ -183,17 +183,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DeviceInfo",
-	owner: "vsmart",
-	apk: "proprietary/system_ext/app/DeviceInfo/DeviceInfo.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "DynamicDDSService",
 	owner: "vsmart",
 	apk: "proprietary/system_ext/app/DynamicDDSService/DynamicDDSService.apk",

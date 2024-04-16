@@ -1565,7 +1565,6 @@ PRODUCT_PACKAGES += \
     CallFeaturesSetting \
     PowerOffAlarm \
     ConferenceDialer \
-    DeviceInfo \
     DynamicDDSService \
     QtiTelephonyService \
     SimContact \
