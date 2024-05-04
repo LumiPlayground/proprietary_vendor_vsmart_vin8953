@@ -397,36 +397,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "QPerformance",
-	owner: "vsmart",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "vsmart",
-	jars: ["proprietary/framework/UxPerformance.jar"],
-}
-
-dex_import {
-	name: "tcmclient",
-	owner: "vsmart",
-	jars: ["proprietary/framework/tcmclient.jar"],
-}
-
-dex_import {
-	name: "tcmiface",
-	owner: "vsmart",
-	jars: ["proprietary/framework/tcmiface.jar"],
-}
-
-dex_import {
-	name: "telephony-ext",
-	owner: "vsmart",
-	jars: ["proprietary/framework/telephony-ext.jar"],
-}
-
-dex_import {
 	name: "ActivityExt",
 	owner: "vsmart",
 	jars: ["proprietary/system_ext/framework/ActivityExt.jar"],
