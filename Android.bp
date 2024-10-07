@@ -866,15 +866,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm-service.widevine",
-	owner: "vsmart",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor.nxp.hardware.nfc@2.0-service",
 	owner: "vsmart",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.nxp.hardware.nfc@2.0-service.xml",
